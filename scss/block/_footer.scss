@@ -1,0 +1,43 @@
+.foot{
+    background-color: #2C343E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 47px 85px;
+    margin-top: 70px;
+}
+.home-list{
+    display: flex;
+
+    list-style: none;
+    
+
+
+}
+.home-item{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+cursor: pointer;
+color: #83888F;
+& + &{
+    margin-left: 33px;
+
+}
+&:hover{
+    color: #bdc6d1;
+}
+}
+.foot-list{
+    display: flex;
+    list-style: none;
+    & li + li{
+        margin-left: 33px;
+    }
+}
